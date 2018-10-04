@@ -57,7 +57,10 @@ def count_elements(array)
   end
 end
 
-#
+#combines two nested data structures into one
+def merge_data(keys, data)
+  
+end
 
 
   
