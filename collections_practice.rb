@@ -22,7 +22,7 @@ def contain_a(array)
   end
 end
 
-#
+#Return the first element that begins with the letters 'wa'
 def first_wa(array)
   item = ""
   item = array.find do |word|
