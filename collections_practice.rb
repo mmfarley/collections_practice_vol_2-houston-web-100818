@@ -66,7 +66,9 @@ end
 
 #find all cool hashes
 def find_cool(cool)
-  infoHash["employee"].select {|k| k["level"] == "2"}
+  cool.select do |item| 
+    item["temperature"] == "cool"
+  end
   #cool[0].values.map do |item|
     
   #end
