@@ -49,11 +49,15 @@ end
 
 #count how many times something appears in an array  
 def count_elements(array)
-  array2 = []
-  array2 = array.collect do |item|
+  counts = Hash.new 0
+  array.each do |item|
+    counts[item] += 1
+  end
+  #array2 = []
+  #array2 = array.collect do |item|
     
-    end
-  array2.length
+   # end
+#  array2.length
 end
 
 array2 = array.select do |word|
