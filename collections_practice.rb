@@ -66,10 +66,7 @@ end
 
 #find all cool hashes
 def find_cool(cool)
-  cool.map do |item|
-    if item.values == "cool"
-      end
-    end
+  level_2_employees = infoHash["employee"].select {|k| k["level"] == "2"}
   #cool[0].values.map do |item|
     
   #end
