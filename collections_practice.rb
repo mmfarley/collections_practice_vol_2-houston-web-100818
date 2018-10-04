@@ -59,7 +59,7 @@ end
 
 #combines two nested data structures into one
 def merge_data(keys, data)
-  data.values.map.with_index do |item, i| 
+  data.values_at.map.with_index do |item, i| 
     keys[i].merge(item)
   end
 end
