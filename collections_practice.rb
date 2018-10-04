@@ -67,7 +67,7 @@ end
 #find all cool hashes
 def find_cool(cool)
   cool.select do |item| 
-    item["temperature"] == "cool"
+    item[:temperature] == "cool"
   end
   #cool[0].values.map do |item|
     
