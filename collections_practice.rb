@@ -22,6 +22,7 @@ def contain_a(array)
   end
 end
 
+#return all elements that contain the letter 'a'
 def first_wa(array)
   item = ""
   item = array.find do |word|
