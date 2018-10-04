@@ -49,7 +49,8 @@ end
 
 #count how many times something appears in an array  
 def count_elements(array)
-  array.each_with_object(Hash.new(0)) { |item, i| item[i[:name]] += 1 }.
+  
+  array.each_with_object(Hash.new(0)) { |item, i| i[item[:name]] += 1 }.
     map { |name, count| { :name=>name, :count=>count } }
 end
 
