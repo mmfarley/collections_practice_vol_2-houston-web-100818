@@ -71,27 +71,17 @@ def find_cool(cool)
   end
 end
 
+#organizes the schools by location
 def organize_schools(schools)
-  output = {}
+  org = {}
   schools.each do |key, locKey|
     locKey.each do |k, location|
-      if !output.has_key?(location)
-        output[location] = [key]
-      elsif output.has_key?(location)
-        output[location] << key
+      if !org.has_key?(location)
+        org[location] = [key]
+      elsif org.has_key?(location)
+        org[location] << key
       end
     end
   end
   output
 end
-#organizes the schools by location
-#def organize_schools(schools)
-#  schools.collect do |school, locKey|
-#    locKey.collect do |key, value|
-#      
-#  end
-#end
-#end
-
-
-  
