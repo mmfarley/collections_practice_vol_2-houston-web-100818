@@ -68,6 +68,7 @@ end
 def find_cool(cool)
   cool.map do |item|
     if item.values == "cool"
+      end
     end
   #cool[0].values.map do |item|
     
