@@ -61,12 +61,6 @@ def count_elements(array)
 #  array2.length
 end
 
-array2 = array.select do |word|
-    if word.include?("a")
-      true
-    else
-      false
-    end
-  end
+
 
   
