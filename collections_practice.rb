@@ -62,6 +62,10 @@ def merge_data(keys, data)
   data[0].values.map.with_index {|v, i| keys[i].merge(v)}
 end
 
+#find all cool hashes
+def find_cool(cool)
+  
+end
 
 
 
