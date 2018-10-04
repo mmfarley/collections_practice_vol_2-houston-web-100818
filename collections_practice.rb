@@ -74,6 +74,7 @@ end
 #organizes the schools by location
 def organize_schools(schools)
   
+  schools.has_value?(schoo)
 end
 
 
