@@ -66,10 +66,12 @@ end
 
 #find all cool hashes
 def find_cool(cool)
-  cool.map
+  cool.map do |item|
+    if 
+    end
   #cool[0].values.map do |item|
     
-  end
+  #end
 end
 
 
