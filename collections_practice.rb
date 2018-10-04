@@ -53,6 +53,7 @@ def count_elements(array)
   array.each do |item|
     counts[item] += 1
   end
+  counts
   #array2 = []
   #array2 = array.collect do |item|
     
