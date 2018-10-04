@@ -52,7 +52,6 @@ def count_elements(array)
   array2 = []
   array2 = array.collect do |item|
     
-    
     end
   array2.length
 end
