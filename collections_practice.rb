@@ -73,8 +73,9 @@ end
 
 #organizes the schools by location
 def organize_schools(schools)
-  
-  schools.has_value?(schoo)
+  schools.collect do |item|
+  item.has_value?()
+end
 end
 
 
