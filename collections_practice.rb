@@ -10,7 +10,7 @@ def begins_with_r(array)
     true
   end
 end
-
+#return all elements that contain the letter 'a'
 def contain_a(array)
   array2 = []
   array2 = array.select do |word|
@@ -56,12 +56,12 @@ def count_elements(array)
   array2.length
 end
 
-cool_nums = [1, 2, 3]
- 
-def change_nums(nums)
- nums.collect do |x|
-   x + 1
- end
-end
+array2 = array.select do |word|
+    if word.include?("a")
+      true
+    else
+      false
+    end
+  end
 
   
