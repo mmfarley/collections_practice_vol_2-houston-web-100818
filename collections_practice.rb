@@ -56,12 +56,12 @@ def count_elements(array)
   array2.length
 end
 
-array2 = array.select do |word|
-    if word.include?("a")
-      true
-    else
-      false
-    end
-  end
+cool_nums = [1, 2, 3]
+ 
+def change_nums(nums)
+ nums.collect do |x|
+   x + 1
+ end
+end
 
   
