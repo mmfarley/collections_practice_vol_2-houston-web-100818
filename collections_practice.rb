@@ -59,7 +59,9 @@ end
 
 #combines two nested data structures into one
 def merge_data(keys, data)
-  data[0].values.map.with_index {|v, i| keys[i].merge(v)}
+  data[0].values.map.with_index do |v, i| 
+    keys[i].merge(v)
+  end
 end
 
 #find all cool hashes
