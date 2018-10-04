@@ -71,6 +71,6 @@ def find_cool(cool)
   end
 end
 
-
+#
 
   
