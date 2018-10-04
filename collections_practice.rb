@@ -71,6 +71,10 @@ def find_cool(cool)
   end
 end
 
-#
+#organizes the schools by location
+def organize_schools(schools)
+  
+end
+
 
   
