@@ -49,7 +49,12 @@ end
 
 #count how many times something appears in an array  
 def count_elements(array)
-  
+  array2 = []
+  array2 = array.collect do |item|
+    
+    
+    end
+  array2.length
 end
 
 cool_nums = [1, 2, 3]
