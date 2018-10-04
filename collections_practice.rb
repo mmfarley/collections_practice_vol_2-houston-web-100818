@@ -59,8 +59,8 @@ end
 
 #combines two nested data structures into one
 def merge_data(keys, data)
-  v1 = keys
-  v2 = data
+  v2 = keys
+  v1 = data
   v1[0].values.map.with_index {|v, i| v2[i].merge(v)}
 
 end
