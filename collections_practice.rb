@@ -74,7 +74,9 @@ end
 #organizes the schools by location
 def organize_schools(schools)
   schools.collect do |school, locKey|
-    
+    locKey.collect do |key, value|
+      
+  end
 end
 end
 
